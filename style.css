@@ -4,9 +4,6 @@
 .container-fluid{
     padding: 0 !important;
 }
-/* body{
-    overflow-x: hidden;
-} */
 .telNumber{
     background: #0D2235;
     /* height: 50px; */
@@ -105,9 +102,36 @@ nav{
 #header{
     width: 100%;
     height: auto;
-    /* background: linear-gradient(rgba(22, 24, 24, 0.5),rgba(26, 24, 24, 0.7)) ,url("http://themesflat.com/html/softo/images/rev-slider/01.jpg")no-repeat; */
-    background: url("http://themesflat.com/html/softo/images/rev-slider/01.jpg")no-repeat;
-    background-size: cover;    
+}
+.content{
+    height: 650px;
+    position: relative;
+}
+.content-div{
+    width: 100%;
+    position: absolute;
+    /* padding-left:100px ; */
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.item1{
+    background: linear-gradient(rgba(22, 24, 24, 0.4),rgba(26, 24, 24, 0.6)) ,url("http://themesflat.com/html/softo/images/rev-slider/01.jpg") no-repeat;
+}
+.item2{
+    background:  url("https://pixabay.com/get/ge550e939a0934f438db4565ced9fcb43e75617cfbfafd3c90d551b553c67e779cad94e7f99e8627f3c050ba2348f0921.jpg") no-repeat;
+}
+.item3{
+    background: url('https://pixabay.com/get/g0647149fecb75f7692cc2e96eae6df8a9f8e4fa7bfcfc029bde2dbca9dfe7d6c87507511ec7fe786bf5039c51f7b42bce5727c356d782992f296509212582bcf_1920.jpg' ) no-repeat;
+}
+.item4{
+    background: linear-gradient(rgba(22, 24, 24, 0.2),rgba(26, 24, 24, 0.4)) , url('https://cdn.pixabay.com/photo/2018/01/11/21/27/desk-3076954_960_720.jpg') no-repeat;
+}
+.bacgroundCarousel .item{
+    width: 100% !important;
+    padding: 0;
+    height: 700px !important;
+    background-size: cover;
     background-position: center;
 }
 .headerBtn{
@@ -384,7 +408,7 @@ p{
  position: absolute;
  top: 0;
  left: 0;
- width: 60%;
+ width: 70%;
  height: 100%;
  background: linear-gradient(90deg, rgba(0,92,234,1) 0%, rgba(0,197,251,1) 100%);
  clip-path: circle(60.8% at 34% 31%);
