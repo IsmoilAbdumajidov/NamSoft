@@ -22,7 +22,7 @@ $(document).ready(function () {
       }
     }
   });
-  $('.owl-carousel').owlCarousel({
+  $('.caseStudyCarusel').owlCarousel({
     loop: true,
     // margin: 5,
     autoplay: true,
@@ -41,6 +41,17 @@ $(document).ready(function () {
         items: 6
       }
     }
+  })
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    // margin: 5,
+    autoplay: true,
+    animateOut: 'fadeOut',
+    autoplayTimeout: 4000,
+    // autoplayHoverPause: true,
+    speed: 8000,
+    responsiveClass: true,
+    items:1,
   })
 })
 
