@@ -119,13 +119,13 @@ nav{
     background: linear-gradient(rgba(22, 24, 24, 0.4),rgba(26, 24, 24, 0.6)) , url("http://themesflat.com/html/softo/images/rev-slider/01.jpg") no-repeat;
 }
 .item2{
-    background:url("img/business-5475660.jpg") no-repeat;
+    background:url("business-5475660.jpg") no-repeat;
 }
 .item3{
-    background:url('img/stairs-6133971.jpg' ) no-repeat;
+    background:url('stairs-6133971.jpg' ) no-repeat;
 }
 .item4{
-    background: linear-gradient(rgba(22, 24, 24, 0.2),rgba(26, 24, 24, 0.4)) , url('img/laptop-3076957.jpg') no-repeat;
+    background: linear-gradient(rgba(22, 24, 24, 0.2),rgba(26, 24, 24, 0.4)) , url('laptop-3076957.jpg') no-repeat;
 }
 .bacgroundCarousel .item{
     width: 100% !important;
