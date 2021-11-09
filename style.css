@@ -116,16 +116,16 @@ nav{
     left: 0;
 }
 .item1{
-    background: linear-gradient(rgba(22, 24, 24, 0.4),rgba(26, 24, 24, 0.6)) ,url("http://themesflat.com/html/softo/images/rev-slider/01.jpg") no-repeat;
+    background: linear-gradient(rgba(22, 24, 24, 0.4),rgba(26, 24, 24, 0.6)) , url("http://themesflat.com/html/softo/images/rev-slider/01.jpg") no-repeat;
 }
 .item2{
-    background:  url("https://pixabay.com/get/ge550e939a0934f438db4565ced9fcb43e75617cfbfafd3c90d551b553c67e779cad94e7f99e8627f3c050ba2348f0921.jpg") no-repeat;
+    background:url("img/business-5475660.jpg") no-repeat;
 }
 .item3{
-    background: url('https://pixabay.com/get/g0647149fecb75f7692cc2e96eae6df8a9f8e4fa7bfcfc029bde2dbca9dfe7d6c87507511ec7fe786bf5039c51f7b42bce5727c356d782992f296509212582bcf_1920.jpg' ) no-repeat;
+    background:url('img/stairs-6133971.jpg' ) no-repeat;
 }
 .item4{
-    background: linear-gradient(rgba(22, 24, 24, 0.2),rgba(26, 24, 24, 0.4)) , url('https://cdn.pixabay.com/photo/2018/01/11/21/27/desk-3076954_960_720.jpg') no-repeat;
+    background: linear-gradient(rgba(22, 24, 24, 0.2),rgba(26, 24, 24, 0.4)) , url('img/laptop-3076957.jpg') no-repeat;
 }
 .bacgroundCarousel .item{
     width: 100% !important;
@@ -243,7 +243,6 @@ p{
     bottom: 200px;
     left: 78%;
 }
-  
 .icon {
     position: absolute;
     color: #fff;
@@ -323,15 +322,38 @@ p{
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    border: 4px dashed transparent;
-    padding: 10px;
+    /* border: 4px dashed transparent; */
     position: relative;
-    bottom: 20px;
     transition: all .4s ease-in-out;
 }
 .servicesCards{
     background-color:#d4e3f8;
     border: none !important;
+} 
+.circle-wrapperCard {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 20px;
+    transition: all .4s ease-in-out;
+}
+.circleCard{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 25px;
+    background-clip: content-box;
+    animation: spin 15s linear infinite;
+}
+.servicesCards:active .circleCard  {
+    animation: spin 3s linear infinite;
+}
+.warningCard{
+    position: absolute;
+    background:transparent;
+    border: 2px dashed #fff;
 }
 .arrow{
     width: 60px;
@@ -343,7 +365,6 @@ p{
 }
 .servicesCards:hover img{
     transform: scale(.8);
-    border: 4px dashed #fff;
 }
 .servicesCards:hover h3,span{
     transition: all .4s ease-in-out;
